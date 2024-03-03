@@ -592,30 +592,39 @@
 
             <div class="ten columns flex-container">
 
-               <div class="slider">
-                  <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
-                  <input type="radio" name="slider" title="slide2" class="slider__nav"/>
-                  <input type="radio" name="slider" title="slide3" class="slider__nav"/>
-                  <input type="radio" name="slider" title="slide4" class="slider__nav"/>
-                  <div class="slider__inner">
-                    <div class="slider__contents">
-                      <h2 class="slider__caption"><cite>codepen</cite></h2>
-                      <p class="slider__txt"><blockquote> ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</blockquote></p>
-                    </div>
-                    <div class="slider__contents">
-                     <h2 class="slider__caption"><cite>codepen</cite></h2>
-                     <p class="slider__txt"><blockquote> ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</blockquote></p>
-                    </div>
-                    <div class="slider__contents">
-                     <h2 class="slider__caption"><cite>codepen</cite></h2>
-                     <p class="slider__txt"><blockquote> ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</blockquote></p>
-                    </div>
-                    <div class="slider__contents">
-                     <h2 class="slider__caption"><cite>codepen</cite></h2>
-                     <p class="slider__txt"><blockquote> ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</blockquote></p>
-                    </div>
+               <div class="carousel">
+                  <div class="carousel-inner">
+                      <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                      <div class="carousel-item">
+                        <blockquote>sfgbfdbbbbbbbbbbbbbbbbddbfbdfndnfndfnfd<cite>sdgsgsdgs</cite></blockquote>
+                      </div>
+                      <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                      <div class="carousel-item">
+                        <blockquote>sfgbfdbbbbbbbbbbbbbbbbddbfbdfndnfndfnfd <cite>sdgsgsdgs</cite></blockquote>
+                      </div>
+                      <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                      <div class="carousel-item">
+                         <blockquote>sfgbfdbbbbbbbbbbbbbbbbddbfbdfndnfndfnfd<cite>sdgsgsdgs</cite></blockquote>
+                      </div>
+                      <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+                      <label for="carousel-2" class="carousel-control next control-1">›</label>
+                      <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+                      <label for="carousel-3" class="carousel-control next control-2">›</label>
+                      <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+                      <label for="carousel-1" class="carousel-control next control-3">›</label>
+                      <ol class="carousel-indicators">
+                          <li>
+                              <label for="carousel-1" class="carousel-bullet">•</label>
+                          </li>
+                          <li>
+                              <label for="carousel-2" class="carousel-bullet">•</label>
+                          </li>
+                          <li>
+                              <label for="carousel-3" class="carousel-bullet">•</label>
+                          </li>
+                      </ol>
                   </div>
-                </div>
+              </div>
             </div> <!-- div.flex-container ends -->
 
          </div> <!-- row ends -->
